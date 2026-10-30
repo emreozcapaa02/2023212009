@@ -1,21 +1,13 @@
 <resources>
     <string name="app_name">My Application</string>
 
-    <!-- Kullanıcı Kayıt Bloğu -->
-    <string name="hint_name">Ad Soyad</string>
-    <string name="hint_email">E-posta Adresi</string>
-    <string name="hint_age">Yaş</string>
-    <string name="btn_register">Kayıt Ol</string>
+    <string name="text_name">Ad Soyad</string>
+    <string name="text_email">E-posta Adresi</string>
+    <string name="text_age">Yaş</string>
+    <string name="text_register">Kayıt Ol</string>
 
-    <!-- Kullanıcı Giriş Bloğu -->
-    <string name="hint_username">Kullanıcı Adı</string>
-    <string name="hint_password">Şifre</string>
-    <string name="btn_login">Giriş Yap</string>
-    <string name="btn_forgot_password">ŞİFREMİ UNUTTUM?</string>
-
-    <!-- Resim Açıklamaları -->
-    <string name="desc_audirs6">Audi RS6</string>
-    <string name="desc_bentley">Bentley</string>
-    <string name="desc_bmwm5">BMW M5</string>
-    <string name="desc_porsche">Porsche</string>
+    <string name="text_username">Kullanıcı Adı</string>
+    <string name="text_password">Şifre</string>
+    <string name="text_login">Giriş Yap</string>
+    <string name="text_forgot_password">ŞİFREMİ UNUTTUM?</string>
 </resources>

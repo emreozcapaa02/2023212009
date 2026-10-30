@@ -14,7 +14,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:elevation="2dp"
         android:orientation="horizontal"
         android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/layoutRegister"
@@ -28,7 +27,6 @@
             android:layout_height="100dp"
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
-            android:contentDescription="@string/desc_audirs6"
             android:scaleType="centerCrop"
             android:src="@drawable/audirs6" />
 
@@ -37,7 +35,6 @@
             android:layout_height="100dp"
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
-            android:contentDescription="@string/desc_bentley"
             android:scaleType="centerCrop"
             android:src="@drawable/bentley" />
 
@@ -46,7 +43,6 @@
             android:layout_height="100dp"
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
-            android:contentDescription="@string/desc_bmwm5"
             android:scaleType="centerCrop"
             android:src="@drawable/bmwm5" />
 
@@ -54,7 +50,6 @@
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:contentDescription="@string/desc_porsche"
             android:scaleType="centerCrop"
             android:src="@drawable/porsche" />
     </LinearLayout>
@@ -64,7 +59,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:elevation="2dp"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintBottom_toTopOf="@+id/layoutLogin"
@@ -75,30 +69,24 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_name"
-            android:importantForAutofill="no"
-            android:inputType="textPersonName" />
+            android:text="@string/text_name" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_email"
-            android:importantForAutofill="no"
-            android:inputType="textEmailAddress" />
+            android:text="@string/text_email" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_age"
-            android:importantForAutofill="no"
-            android:inputType="number" />
+            android:text="@string/text_age" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/register_button_bg"
-            android:text="@string/btn_register"
+            android:text="@string/text_register"
             android:textColor="@color/white" />
     </LinearLayout>
 
@@ -107,7 +95,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:elevation="2dp"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,31 +105,27 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_username"
-            android:importantForAutofill="no"
-            android:inputType="text" />
+            android:text="@string/text_username" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/hint_password"
-            android:importantForAutofill="no"
-            android:inputType="textPassword" />
+            android:text="@string/text_password" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/login_button_bg"
-            android:text="@string/btn_login"
+            android:text="@string/text_login"
             android:textColor="@color/white" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="12dp"
-            android:text="@string/btn_forgot_password"
+            android:text="@string/text_forgot_password"
             android:textColor="@color/forgot_password_color"
             android:textStyle="bold" />
     </LinearLayout>
